@@ -33,6 +33,10 @@ button:hover {
 	border-color: $darkest-blue;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 /*
 	Header Rules
 */
@@ -51,4 +55,8 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+.hidden {
+  display: none;
 }
